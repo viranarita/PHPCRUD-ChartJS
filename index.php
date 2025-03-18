@@ -71,12 +71,12 @@ $data['id_buku'] ?>">Edit</a>
     <script>
 		var ctx = document.getElementById("myChart").getContext('2d');
 		var myChart = new Chart(ctx, {
-			type: 'bar',
+			type: 'doughnut',
 			data: {
-				labels: ["pemrograman", "sci-fi", "horror", "comedy"],
+				labels: ["pemrograman", "anak", "komedi"],
 				datasets: [{
 					label: '# of Votes',
-					data: [2,5,1,2],
+					data: [2,5,1],
 					backgroundColor: [
 					'rgba(255, 99, 132, 0.2)',
 					'rgba(54, 162, 235, 0.2)',
